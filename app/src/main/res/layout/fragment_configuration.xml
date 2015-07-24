@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/gui_configuration_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText android:id="@+id/txtHost"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="Host"
+        android:inputType="text" />
+
+    <EditText android:id="@+id/txtPasswordOld"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="Contraseña Anterior"
+        android:inputType="textPassword"
+        android:layout_marginTop="15dip"
+        android:layout_marginBottom="30dip" />
+
+    <EditText android:id="@+id/txtPasswordNew"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="Contraseña Nueva"
+        android:inputType="textPassword"
+        android:layout_marginTop="15dip"
+        android:layout_marginBottom="30dip" />
+
+    <EditText android:id="@+id/txtPasswordNewRepit"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="Contraseña Nueva Repetir"
+        android:inputType="textPassword"
+        android:layout_marginTop="15dip"
+        android:layout_marginBottom="30dip" />
+
+    <Button android:id="@+id/buttonGuardarCnf"
+        android:layout_height="wrap_content"
+        android:layout_width="170dip"
+        android:text="GUARDAR"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:drawableLeft="@drawable/icon_save2"
+        />
+
+
+
+</LinearLayout>

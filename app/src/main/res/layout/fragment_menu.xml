@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button android:id="@+id/menuRegistrar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+        android:text="Registrar Lectura"
+        android:gravity="center"
+        android:textSize="25dip"
+        android:textStyle="bold"
+        android:textColor="#0b84aa"
+        android:drawableLeft="@drawable/icon_register"
+        />
+
+    <Button android:id="@+id/menuListaPendientes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+        android:text="Lista de Lecturas"
+        android:gravity="center"
+        android:textSize="25dip"
+        android:textStyle="bold"
+        android:textColor="#0b84aa"
+        android:drawableLeft="@drawable/icon_list"
+
+        />
+
+
+
+    <Button android:id="@+id/menuSync"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+        android:text="Syncronizar Servidor"
+        android:gravity="center"
+        android:textSize="25dip"
+        android:textStyle="bold"
+        android:textColor="#0b84aa"
+        android:drawableLeft="@drawable/icon_synchronization"
+        />
+
+    <Button android:id="@+id/menuConfiguration"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+        android:text="Configuracion"
+        android:gravity="center"
+        android:textSize="25dip"
+        android:textStyle="bold"
+        android:textColor="#0b84aa"
+        android:drawableLeft="@drawable/icon_settings"
+        />
+</LinearLayout>

@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/gui_symchonize_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/btnActualizarPeriodo"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Actualizar Periodo"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:drawableLeft="@drawable/icon_synchronization2"
+        />
+
+    <TextView
+        android:text="@string/gui_lb_periodo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spinner_periodo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/btnObtenerPlantillaDeLecturas"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Obtener Planilla de Lecturas"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:drawableLeft="@drawable/icon_get_server"
+        />
+
+    <Button android:id="@+id/btnGuardarPlantillaDeLecturas"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Guardar Planilla de Lecturas en Servidor"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:drawableLeft="@drawable/icon_set_server"
+        />
+
+
+</LinearLayout>

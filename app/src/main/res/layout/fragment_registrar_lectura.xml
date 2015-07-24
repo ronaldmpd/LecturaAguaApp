@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        >
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="20px"
+           android:layout_height="120dp"
+            >
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingRight="0px"
+                >
+                <TextView
+                    android:id="@+id/textViewCodigoCliente"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Código Cliente:"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/registrar_lectura_label"
+                    />
+
+                <EditText
+                    android:id="@+id/editTextCodigoCliente"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:ems="10"
+                    />
+
+
+                <Button
+                    android:id="@+id/buttonBuscar"
+                    android:layout_height="50dp"
+                    android:layout_width="170dip"
+                    android:text="Buscar"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:drawableLeft="@drawable/icon_search2"
+
+                    />
+
+
+            </LinearLayout>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        >
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="20px"
+            >
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingRight="0px"
+                >
+
+                <TextView
+                    android:id="@+id/textViewNombreLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre: "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/registrar_lectura_label"
+                    />
+
+    <TextView
+        android:id="@+id/textViewNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </LinearLayout>
+    </TableRow>
+    </TableLayout>
+
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        >
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="20px"
+            >
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingRight="0px"
+                >
+
+                <TextView
+                    android:id="@+id/textViewDireccionLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Direccion: "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/registrar_lectura_label"
+                    />
+
+            <TextView
+        android:id="@+id/textViewDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </LinearLayout>
+    </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        >
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="20px"
+            android:paddingRight="20px"
+            android:paddingBottom = "1px"
+            >
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingRight="0px"
+                >
+
+    <TextView
+        android:id="@+id/textViewPeriodoLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Periodo: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/registrar_lectura_label"
+        />
+
+                <TextView
+                    android:id="@+id/textViewPeriodo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </LinearLayout>
+    </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        >
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="20px"
+            android:paddingRight="20px"
+            android:paddingBottom = "1px"
+            >
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingRight="0px"
+                >
+
+    <TextView
+        android:id="@+id/textViewLecturaAnteriorLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lectura Anterior: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/registrar_lectura_label"
+        />
+
+                <TextView
+                    android:id="@+id/textViewLecturaAnterior"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    />
+
+                </LinearLayout>
+    </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        >
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="20px"
+            >
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingRight="0px"
+                >
+                <TextView
+                    android:id="@+id/textViewLecturaActual"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lectura Actual:"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/registrar_lectura_label"
+                    />
+
+                <EditText
+                    android:id="@+id/editTextLecturaActual"
+                    android:layout_width="115dp"
+                    android:layout_height="50dp"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="#0b84aa" />
+
+            </LinearLayout>
+
+        </TableRow>
+
+    </TableLayout>
+
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        >
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="20px"
+            android:paddingRight="20px"
+            android:paddingBottom = "1px"
+            >
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingRight="0px"
+                >
+    <TextView
+        android:id="@+id/textViewConsumoLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consumo: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/registrar_lectura_label"
+        />
+
+                <TextView
+                    android:id="@+id/textViewConsumo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </LinearLayout>
+    </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        >
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="20px"
+            android:paddingRight="20px"
+            android:paddingBottom = "1px"
+            >
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingRight="0px"
+                >
+
+    <TextView
+        android:id="@+id/textViewTotalMesLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total mes: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/registrar_lectura_label"
+        />
+
+                <TextView
+                    android:id="@+id/textViewTotalMes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </LinearLayout>
+    </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        >
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="20px"
+            android:paddingRight="20px"
+            android:paddingBottom = "1px"
+            >
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingRight="0px"
+                >
+    <TextView
+        android:id="@+id/textViewDeudasAnteriorLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deuda Anterior: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/registrar_lectura_label"/>
+
+                <TextView
+                    android:id="@+id/textViewDeudasAnterior"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        >
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="20px"
+            android:paddingRight="20px"
+            android:paddingBottom = "1px"
+            >
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingRight="0px"
+                >
+    <TextView
+        android:id="@+id/textViewNumeroMesesLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numero de meses: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/registrar_lectura_label"/>
+
+                <TextView
+                    android:id="@+id/textViewNumeroMeses"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        >
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="20px"
+            android:paddingRight="20px"
+            android:paddingBottom = "1px"
+            >
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingRight="0px"
+                >
+    <TextView
+        android:id="@+id/textViewTotalGeneralLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total General: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/registrar_lectura_label" />
+
+                <TextView
+                    android:id="@+id/textViewTotalGeneral"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        >
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="20px"
+            >
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingRight="20px"
+                >
+
+
+                <Button
+                    android:id="@+id/buttonGuardar"
+                    android:layout_height="50dp"
+                    android:layout_width="170dip"
+                    android:text=" Guardar "
+                    android:layout_gravity="center_horizontal"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:drawableLeft="@drawable/icon_save2"
+                    />
+
+            </LinearLayout>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button android:id="@+id/returnMenuR"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="20dip"
+        android:text= " Menu Principal "
+        android:gravity="center"
+        android:textSize="25dip"
+        android:textStyle="bold"
+        android:textColor="#0b84aa"
+        android:drawableLeft="@drawable/icon_return"
+        />
+
+</LinearLayout>

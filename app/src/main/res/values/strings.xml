@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LecturaAguaApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu">LecturaAguaApp - Menu</string>
+    <string name="title_activity_configuration">LecturaAguaApp - Configuración</string>
+    <string name="gui_configuration_title">Configuracion</string>
+    <string name="gui_symchonize_title">Sincronizar Servidor</string>
+    <string name="title_activity_synchonize">LecturaAguaApp - Sincronición</string>
+    <string name="gui_lb_periodo">Periodo</string>
+    <string name="title_activity_lectura_registro">LecturaRegistroActivity</string>
+    <string name="title_activity_registrar_lectura">LecturaAguaApp - Registrar</string>
+    <string name="gui_registrar_lectura_title">Registrar Lectura</string>
+    <string name="title_activity_lista_lecturas">LecturaAguaApp - Lista</string>
+</resources>
